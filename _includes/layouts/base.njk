@@ -62,7 +62,7 @@
   <body>
     <header>
       <nav>
-        <a href="{{ '/' | url }}" title="Homepage">{{ metadata.title }}</a>
+        <a href="{{ '/' | url }}" title="Homepage">Home</a>
         {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
         {%- for entry in collections.all | eleventyNavigation %}
           <a href="{{ entry.url | url }}">{{ entry.title }}</a>
@@ -91,8 +91,9 @@
       </article>
     </main>
 
-    <footer>
-      <a href="/about/">{{ metadata.author.name }}</a>
+    <footer style="text-align:center">
+      Follow me on
+      <a href="https://twitter.com/_ikbenwik">Twitter</a>
     </footer>
 
     <!-- Current page: {{ page.url | url }} -->

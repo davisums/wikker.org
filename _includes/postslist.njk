@@ -1,4 +1,4 @@
-<ul style="padding-top:20px;padding-bottom:20px;">
+<ul style="padding-left:0;">
 {% for post in postslist | reverse %}
   <li style="list-style-type: none; padding-bottom:8px;">
     <a href="{{ post.url | url }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a>
