@@ -8,9 +8,9 @@ layout: layouts/post.njk
 image: https://cdn.pixabay.com/photo/2020/08/30/20/54/rice-field-5530707_1280.jpg
 ---
 
-[HotWire](https://hotwired.dev/) doesn’t feel very Rails-y. For many use cases it’s a huge step forward from creating SPA’s, but it could have been so much better. It could’ve been like Unpoly.
+[HotWire](https://hotwired.dev/) doesn’t feel very Rails-y. It's a step forward from creating SPAs for the tinyest website, but it could have been so much better. It could’ve been like Unpoly.
 
-HotWire is verbose. You need WebSockets (for Turbo Streams) as soon as you try to do something slightly complicated. And you’ll need StimulusJS to handle a lot of basic use cases.
+The problem with Hotwire, is that it's a lot of work. You need WebSockets (for Turbo Streams) as soon as you try to do something slightly complicated. And you’ll need StimulusJS to handle the slightest interactivity.
 
 A lot of boilerplate, very little magic.
 
