@@ -233,6 +233,19 @@ html {
   src: url("/fonts/Inter-3.19.var.woff2") format("woff2");
 }
 
+p > code {
+  color: #ececec;
+  background-color: #1a2B3c !important;
+  /* monospace font, not Inter */
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+
+}
+code {
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+}
+p > a {
+  text-decoration: underline;
+}
 /*
 
 The Bahunya CSS framework https://kimeiga.github.io/bahunya/

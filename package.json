@@ -6,7 +6,7 @@
   "scripts": {
     "build-ci": "npm run js-build && eleventy && npm run test",
     "buildz": "npm run clean && npm run build-ci",
-    "build": "npx eleventy",
+    "build": "npm run js-build && eleventy",
     "watch": "concurrently \"npm run serve\" \"npm run js-build-watch\" \"npm run test-watch\"",
     "serve": "npm run clean && eleventy --serve",
     "js-build": "rollup -c rollup.config.js",
