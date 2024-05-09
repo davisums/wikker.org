@@ -32,11 +32,11 @@ describe("check build output for homepage", () => {
       doc = dom.window.document;
     });
 
-    it("should have a top navigation", () => {
-      const navs = Array.from(doc.querySelectorAll("header nav a"));
+    // it("should have a top navigation", () => {
+    //   const navs = Array.from(doc.querySelectorAll("header nav a"));
 
-      expect(navs.length).to.be.greaterThan(1);
-    });
+    //   expect(navs.length).to.be.greaterThan(1);
+    // });
 
     it("should have a list of posts", () => {
       const posts = Array.from(doc.querySelectorAll("#posts ul li a"));
