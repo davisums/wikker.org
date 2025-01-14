@@ -1,7 +1,7 @@
 {
-  "title": "randomwik.org",
-  "url": "https://randomwik.org",
-  "domain": "randomwik.org",
+  "title": "lilfounder.com",
+  "url": "https://lilfounder.com",
+  "domain": "lilfounder.com",
   "description": "A blog about building products",
   "genre": "Insert a schema.org genre",
   "googleAnalyticsId": "GA ID. Update me. Note, that this is not compatible with the not-yet-commonly used version 4 of Google Analytics",
@@ -10,11 +10,11 @@
     "subtitle": "A blog about building products.",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://randomwik.org"
+    "id": "https://lilfounder.com"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://randomwik.org/feed/feed.json"
+    "url": "https://lilfounder.com/feed/feed.json"
   },
   "author": {
     "name": "Wik.",
