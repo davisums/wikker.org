@@ -90,7 +90,7 @@
 
       {% if page.url and page.url.indexOf("/posts/") == -1 %}
       <div style="text-align:center">
-        <p style="font-size:1.1rem;">Developer turned product manager, turned founder at <a href="https://votejar.io">VoteJar</a>. <br>My DMs on <a href="https://bsky.app/profile/lilfounder.com">Bluesky</a> are open.</p>
+        <p style="font-size:1.1rem;">Developer turned product manager, turned founder at <a href="https://votejar.io">VoteJar</a>. <br>My DMs on <a href="https://bsky.app/profile/lilfounder.com">Bluesky</a> and <a href="https://x.com/lilfounder">X</a> are open.</p>
       </div>
       {% endif %}
 
@@ -109,9 +109,11 @@
     </main>
 
     {% if page.url and page.url.indexOf("/posts/") > -1 %}
-    <footer style="text-align:center">
+    <footer style="text-align:center;display:flex;justify-content:center;gap:0.5rem;padding-top:1rem;">
       Follow me on
-      <a href="https://twitter.com/_ikbenwik">Twitter</a>
+      <a href="https://x.com/lilfounder">
+        <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-brand-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 4l11.733 16h4.267l-11.733 -16z" /><path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" /></svg>
+      </a>
     </footer>
     {% endif %}
 
