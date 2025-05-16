@@ -5,7 +5,7 @@ date: 2025-05-15
 scheduled: 2025-05-15
 tags: startups
 layout: layouts/post.njk
-image: https://cdn.pixabay.com/photo/2020/08/30/20/54/rice-field-5530707_1280.jpg
+image: https://images.unsplash.com/photo-1649180556628-9ba704115795?q=80&w=3262&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 ---
 
 I've been working on a Django project that uses Wagtail for the CMS. The website is multilingual so I wanted a way for users to easily switch between languages.
